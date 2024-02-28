@@ -1,8 +1,8 @@
 image: Ubuntu1804
 stack: node 12
 branches:
-  only:
-    - main
+ only:
+  - main
 cash: node_modules
 install:
   - npm install
